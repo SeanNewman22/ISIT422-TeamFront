@@ -24,7 +24,7 @@ export class PalindromeCheckerComponent implements OnInit {
   {
     return this.userString == this.userString.split('').reverse().join('');
   }
-  
+
   constructor() { }
 
   ngOnInit() {
