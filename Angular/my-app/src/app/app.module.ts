@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { SimpletextComponent } from './simpletext/simpletext.component';
 import { CalculateComponent } from './calculate/calculate.component';
 import { WordSortComponent } from './word-sort/word-sort.component';
+import { PalindromeCheckerComponent } from './palindrome-checker/palindrome-checker.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SimpletextComponent,
     CalculateComponent,
-    WordSortComponent
+    WordSortComponent,
+    PalindromeCheckerComponent
   ],
   imports: [
     BrowserModule,
