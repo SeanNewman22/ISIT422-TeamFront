@@ -7,6 +7,7 @@ import { SimpletextComponent } from './simpletext/simpletext.component';
 import { CalculateComponent } from './calculate/calculate.component';
 import { WordSortComponent } from './word-sort/word-sort.component';
 import { PalindromeCheckerComponent } from './palindrome-checker/palindrome-checker.component';
+import { CounterComponent } from './counter/counter.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { PalindromeCheckerComponent } from './palindrome-checker/palindrome-chec
     SimpletextComponent,
     CalculateComponent,
     WordSortComponent,
-    PalindromeCheckerComponent
+    PalindromeCheckerComponent,
+    CounterComponent
   ],
   imports: [
     BrowserModule,
